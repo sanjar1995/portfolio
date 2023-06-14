@@ -1424,7 +1424,7 @@ button {
 }
 
 .menu-btn {
-    display: flex;
+    display: none;
     flex-direction: column;
     gap: 10px;
 }
@@ -1455,6 +1455,9 @@ button {
 }
 
 @media(max-width:815px) {
+    .menu-btn{
+        display: flex;
+    }
     .header__list {
         flex-direction: column;
         position: fixed;
